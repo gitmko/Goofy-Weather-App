@@ -10,8 +10,8 @@ app = ctk.CTk()
 app.geometry("440x480")
 app.title("Goofy Weather App")
 
-logo = ctk.CTkImage(light_image=Image.open("./logo/logo-light.png"),
-                                  dark_image=Image.open("./logo/logo-dark.png"),
+logo = ctk.CTkImage(light_image=Image.open("./images/logo-light.png"),
+                                  dark_image=Image.open("./images/logo-dark.png"),
                                   size=(100, 100))
 logo_label = ctk.CTkLabel(app, image=logo, text="")  # display image with a CTkLabel
 logo_label.place(relx=0.38, rely=0.03)
